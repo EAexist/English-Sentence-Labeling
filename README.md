@@ -7,7 +7,7 @@ Label an english sentence as one of the four structures; simple, complex, compou
 
 `pip install nltk`\
 `pip install pandas`\
-`python main.py`\
+`python main.py`
 
 Input data < data/
 Output > output/
