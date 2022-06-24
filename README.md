@@ -9,7 +9,7 @@ Label an english sentence as one of the four structures; simple, complex, compou
 `pip install pandas`\
 `python main.py`
 
-Input data < data/
+Input data < data/\
 Output > output/
 
 ### Input format
