@@ -5,9 +5,9 @@ Label an english sentence as one of the four structures; simple, complex, compou
 
 ## How to run
 
-`pip install nltk`
-`pip install pandas`
-`python main.py`
+`pip install nltk`\
+`pip install pandas`\
+`python main.py`\
 
 Input data < data/
 Output > output/
