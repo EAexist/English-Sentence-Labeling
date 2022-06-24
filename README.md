@@ -5,31 +5,42 @@ Label an english sentence as one of the four structures; simple, complex, compou
 
 ## How to run
 
-`pip install nltk`\
-`pip install pandas`\
+`pip install nltk`
+
+`pip install pandas`
+
 `python main.py`
 
-Input data < data/\
+Input data < data/
+
 Output > output/
 
 ### Input format
 
 tsv(delimeter = '/t')
 
-Option 1. Unlabeled data\
-sentence (*head)\
-I love cats\
+Option 1. Unlabeled data
+
+sentence (*head)
+
+I love cats
+
 I love dogs because they are cute
 
-Option 2. Labeled data\
-label_human /t sentence (*head)\
-0 /t I love cats\
+Option 2. Labeled data
+
+label_human /t sentence (*head)
+
+0 /t I love cats
+
 2 /t I love dogs because they are cute
 
 ### Dependencies
 
-python 3.9.12\
-nltk 3.7 \
+python 3.9.12
+
+nltk 3.7 
+
 pandas 1.4.2
 
 
