@@ -1,0 +1,18 @@
+digraph G{
+edge [dir=forward]
+node [shape=plaintext]
+
+0 [label="0 (None)"]
+0 -> 2 [label="root"]
+1 [label="1 (I)"]
+2 [label="2 (knew)"]
+2 -> 1 [label="nsubj"]
+2 -> 6 [label="ccomp"]
+3 [label="3 (something)"]
+3 -> 4 [label="amod"]
+4 [label="4 (terrible)"]
+5 [label="5 (had)"]
+6 [label="6 (happened)"]
+6 -> 3 [label="nsubj"]
+6 -> 5 [label="aux"]
+}

@@ -1,0 +1,18 @@
+digraph G{
+edge [dir=forward]
+node [shape=plaintext]
+
+0 [label="0 (None)"]
+0 -> 2 [label="root"]
+1 [label="1 (I)"]
+2 [label="2 (like)"]
+2 -> 1 [label="nsubj"]
+2 -> 3 [label="obj"]
+3 [label="3 (tea)"]
+3 -> 6 [label="conj"]
+4 [label="4 (and)"]
+5 [label="5 (you)"]
+6 [label="6 (coffee)"]
+6 -> 4 [label="cc"]
+6 -> 5 [label="nmod:poss"]
+}

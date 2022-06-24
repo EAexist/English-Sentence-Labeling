@@ -1,0 +1,7 @@
+label_human	sentence
+0	And Jenny a CD.
+1	I like tea and you coffee.  
+1	Mary wants to buy a book and Jenny a CD.
+1	They had left the company , many for good.
+
+

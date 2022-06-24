@@ -1,0 +1,5 @@
+simple	0	0	And Jenny a CD.
+simple	0	0	Wolves and European brown bears developed a fear of humans too late and became extinct in the British wilds and the forests and mountains of Europe in medieval times.
+simple	0	1	I like tea and you coffee.  
+simple	0	1	Mary wants to buy a book and Jenny a CD.
+simple	0	1	They had left the company , many for good.

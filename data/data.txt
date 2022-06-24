@@ -1,0 +1,16 @@
+label_human	sentence
+0	We’re going on holiday tomorrow.
+0	I’m not keen on musicals.
+0	And Jenny a CD.
+0	Wolves and European brown bears developed a fear of humans too late and became extinct in the British wilds and the forests and mountains of Europe in medieval times.
+1	I phoned her but she wasn’t there.
+1	Are you coming or are you staying at home or will you go and see Mum?
+2	Wonder where Joe Healey is these days?
+2	Hope you have a nice holiday.
+2	You can call me if you have any problems.
+2	I got up earlier than usual because I had to get the 6.30 train.
+2	Although it hurt when she bent her wrist, she could still move her fingers
+2	I knew something terrible had happened.
+2	Maureen was glad we had called in to see her.
+2	Are you afraid you won’t get a job when you leave college?
+

@@ -1,0 +1,18 @@
+digraph G{
+edge [dir=forward]
+node [shape=plaintext]
+
+0 [label="0 (None)"]
+0 -> 2 [label="root"]
+1 [label="1 (We)"]
+2 [label="2 (’re)"]
+2 -> 1 [label="nsubj"]
+2 -> 3 [label="xcomp"]
+3 [label="3 (going)"]
+3 -> 5 [label="obl"]
+3 -> 6 [label="obl:tmod"]
+4 [label="4 (on)"]
+5 [label="5 (holiday)"]
+5 -> 4 [label="case"]
+6 [label="6 (tomorrow)"]
+}
