@@ -23,15 +23,17 @@ There are two options. **The first line of the input file should be exactly same
 
 **Option 1. Unlabeled data**
 
-sentence (*head)\
+sentence\
 I love cats\
-I love dogs because they are cute
+I love dogs because they are cute\
+...
 
 **Option 2. Labeled data**
 
-label_human /t sentence (*head)\
+label_human /t sentence\
 0 /t  I love cats\
-2 /t  I love dogs because they are cute
+2 /t  I love dogs because they are cute\
+...
 
 ### Dependencies
 
