@@ -17,23 +17,21 @@ Output > output/
 
 ### Input format
 
-tsv(delimeter = '/t')
+texts delimeted by tab('/t')
 
-Option 1. Unlabeled data
+There are two options. **The first line of the input file should be exactly same as the following exmaples.** 
 
-sentence (*head)
+**Option 1. Unlabeled data**
 
-I love cats
-
+sentence (*head)\
+I love cats\
 I love dogs because they are cute
 
-Option 2. Labeled data
+**Option 2. Labeled data**
 
-label_human /t sentence (*head)
-
-0 /t I love cats
-
-2 /t I love dogs because they are cute
+label_human /t sentence (*head)\
+0 /t  I love cats\
+2 /t  I love dogs because they are cute
 
 ### Dependencies
 
