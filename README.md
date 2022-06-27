@@ -9,11 +9,16 @@ Label an english sentence as one of the four structures; simple, complex, compou
 
 `pip install pandas`
 
+`pip install stanza`
+
 `python main.py`
 
 Input data < data/
 
 Output > output/
+
+main.py has two options of using\
+1.python stanza (default)\n 2.python nltk.parse.stanford package.\ However, option 2 requires a model file in local which is large and thus not shared in this repository.
 
 ### Input format
 
@@ -43,6 +48,7 @@ nltk 3.7
 
 pandas 1.4.2
 
+stanza 1.4.0
 
 ## Definitions
 
