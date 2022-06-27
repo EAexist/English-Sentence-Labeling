@@ -1,4 +1,3 @@
-import nltk
 from nltk.parse.stanford import StanfordDependencyParser
 import stanza
 import pandas as pd
