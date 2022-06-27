@@ -13,4 +13,4 @@ label_human	sentence
 2	I knew something terrible had happened.
 2	Maureen was glad we had called in to see her.
 2	Are you afraid you won’t get a job when you leave college?
-
+3	The dog lived in the garden, but the cat, who was smarter, lived inside the house.

@@ -1,0 +1,15 @@
+simple	0	0	We’re going on holiday tomorrow.
+simple	0	0	I’m not keen on musicals.
+simple	0	0	And Jenny a CD.
+simple	0	0	Wolves and European brown bears developed a fear of humans too late and became extinct in the British wilds and the forests and mountains of Europe in medieval times.
+compound	1	1	I phoned her but she wasn’t there.
+compound	1	1	Are you coming or are you staying at home or will you go and see Mum?
+complex	2	2	Wonder where Joe Healey is these days?
+complex	2	2	Hope you have a nice holiday.
+complex	2	2	You can call me if you have any problems.
+complex	2	2	I got up earlier than usual because I had to get the 6.30 train.
+complex	2	2	Although it hurt when she bent her wrist, she could still move her fingers
+complex	2	2	I knew something terrible had happened.
+complex	2	2	Maureen was glad we had called in to see her.
+complex	2	2	Are you afraid you won’t get a job when you leave college?
+compound-complex	3	3	The dog lived in the garden, but the cat, who was smarter, lived inside the house.

@@ -1,6 +1,7 @@
 import nltk
 import stanza
 from graphviz import Source
+from nltk.parse.stanford import StanfordDependencyParser
 
 # Visualize dependency graph of parsed sentence with dependency labels
 def visualize_dependency(idx, dependencies): 
@@ -9,7 +10,10 @@ def visualize_dependency(idx, dependencies):
   source.view()
 
 # Visualize dependency graph of a sentence with dependency labels
-def visualize_sentence(idx, sentence, parser): 
+def visualize_sentence(idx, sentence): 
+  jar_path = 'corenlp/stanford-corenlp.jar' 
+  models_jar_path = 'corenlp/corenlp-english-default/stanford-corenlp-models-english-default.jar'
+  parser = StanfordDependencyParser(path_to_jar = jar_path, path_to_models_jar = models_jar_path).raw_parse
   sentence_parsed = parser(sentence)
   dependencies = sentence_parsed.__next__()
   dot_def = dependencies.to_dot()
@@ -34,3 +38,6 @@ def apply_function(func, path, use_idx = False):
         result = func(idx, line) if use_idx else func(line)
         list_results.append(result)
         print(result)
+
+
+apply_function(visualize_sentence, 'data/data.txt', True)
