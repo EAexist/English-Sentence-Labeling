@@ -2,6 +2,7 @@
 
 Label an english sentence as one of the four structures; simple, complex, compound, compound-complex
 
+Please refer to Report.pdf and execute main.py.
 
 ## How to run
 
