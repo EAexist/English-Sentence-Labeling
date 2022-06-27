@@ -17,8 +17,13 @@ Input data < data/
 
 Output > output/
 
-main.py has two options of using\
-1.python stanza (default)\n 2.python nltk.parse.stanford package.\ However, option 2 requires a model file in local which is large and thus not shared in this repository.
+main.py has two options of using
+
+1.python stanza (default)
+
+2.python nltk.parse.stanford package.
+
+However, option 2 requires a model file in local which is large and thus not shared in this repository.
 
 ### Input format
 
